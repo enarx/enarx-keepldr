@@ -24,7 +24,7 @@ use sgx::{
         ssa::StateSaveArea,
     },
 };
-use sgx_heap::Heap;
+use enarx_heap::Heap;
 
 pub const TRACE: bool = false;
 use crate::enclave::{syscall, Context};
